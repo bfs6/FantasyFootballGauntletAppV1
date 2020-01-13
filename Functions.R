@@ -64,7 +64,7 @@ get_available_players <- function(user, opposing_user, week, season, ppr = T){
   user_available_players_return <- subset(user_available_players, select = c(name, position, teamAbbr, seasonPts, seasonProjectedPts, weekPts, weekProjectedPts, opponent_used))
   return(user_available_players_return)
 }
-basils_available_players <- get_available_players(user = "Basil", opposing_user = "Geoff", week = 10, season = 2019, ppr = T)
+#basils_available_players <- get_available_players(user = "Basil", opposing_user = "Geoff", week = 10, season = 2019, ppr = T)
 
 
 
